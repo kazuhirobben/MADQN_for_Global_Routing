@@ -35,7 +35,7 @@ trail = N(本論文では10000)の場合，出力される結果はＮ回のう�
 
 ### DQN
 シングルエージェント（DQN）の設定方法について記す．  
-DQNに関する記述は全てDQN_fixed_order.pyとDQN_random_order.pyファイル内で行う．  
+DQNに関する設定は全てDQN_fixed_order.pyとDQN_random_order.pyファイル内で行う．  
 
 ![grid_graph](/../main/images/DQN_epi_batch_set.png)  
 
@@ -52,7 +52,7 @@ DQNに関する記述は全てDQN_fixed_order.pyとDQN_random_order.pyファイ�
  - 学習率＝332行目
 ### MADQN
 マルチエージェント（MADQN）の設定方法について記す．  
-MADQNに関する記述は全てMADQN.pyファイル内で行う．  
+MADQNに関する設定は全てMADQN.pyファイル内で行う．  
 
 ![grid_graph](/../main/images/MADQN_epi_batch_set.png)  
 
@@ -79,7 +79,7 @@ MADQNに関する記述は全てMADQN.pyファイル内で行う．
  - otherwise＝25行目
 
 報酬はリストで与える． 複数の報酬設定で比較をしたい場合，   
-(例：３種の報酬設定)
+(例：報酬を３種類設定する場合)
  - reward = [100, 100, 100]
  - penalty = [-10, -1, -0.1]
  - sparce_reward = [-1, -0.1, -0.01]  
@@ -132,7 +132,7 @@ seed値を出力した後に左から順に
  ![grid_graph](/../main/images/result_log.png)  
  
 ### reward(DQN&MADQN)
-ここでは，seed値とエピソード毎の累積報酬が出力される．
+ここでは，seed値とエピソード毎の累積報酬を出力する．
 ## パッケージ
 - Python implementation: CPython
 - Python version       : 3.7.12
