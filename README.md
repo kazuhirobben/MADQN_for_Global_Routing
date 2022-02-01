@@ -2,6 +2,8 @@
 ## 概要
 ## 実験条件の設定
 ### グリッドグラフ
+![grid_graph](https://github.com/kazuhirobben/MADQN_for_Global_Routing/edit/main/images/grid_graph.png)  
+
 問題設定の方法について記す．問題の作成に関する記述は全てmain.pyファイル内で行う．  
 グリッドの大きさ，ピンペアの数，キャパシティの設定は以下で行う．
  - グリッドの大きさ＝35行目
